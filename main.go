@@ -15,5 +15,5 @@ func main() {
 		log.Println("Error to read from stdin")
 	}
 
-	fmt.Print(string(bytes[:]))
+	fmt.Print(string(bytes[:]) + "version : 1.0")
 }
